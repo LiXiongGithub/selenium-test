@@ -13,9 +13,7 @@ public class PropertyManager {
 	private static Logger log = LoggerFactory.getLogger(PropertyManager.class);
 	private static final String CONFIG = "config";
 
-	/**
-	 * 将key和value缓存到内存里
-	 */
+	
 	private static final Map<String, String> properties = new LinkedHashMap<String, String>();
 
 	/**
