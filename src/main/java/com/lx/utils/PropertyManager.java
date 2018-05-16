@@ -53,9 +53,7 @@ public class PropertyManager {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(PropertyManager.getString("redis_maxtotal"));
-		System.out.println(PropertyManager.getString("redis_maxtotal1"));
-		System.out.println(PropertyManager.getString("redis_maxtotal"));
+		
 	}
 
 }
